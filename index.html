@@ -11,10 +11,10 @@
                 extend: {
                     colors: {
                         executive: {
-                            900: '#0b0f19', /* Fondo ultra oscuro elegante */
-                            800: '#131a2c', /* Tarjetas principales */
-                            700: '#1e2942', /* Bordes y elementos sutiles */
-                            gold: '#f59e0b', /* Ámbar/Dorado corporativo */
+                            900: '#0b0f19',
+                            800: '#131a2c',
+                            700: '#1e2942',
+                            gold: '#f59e0b',
                         }
                     }
                 }
@@ -24,10 +24,10 @@
 </head>
 <body class="bg-executive-900 text-slate-200 font-sans antialiased selection:bg-amber-500 selection:text-black">
 
-    <nav class="sticky top-0 z-50 bg-executive-900/90 backdrop-blur-md border-b border-executive-700/50">
-        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+    <nav class="sticky top-0 z-50 bg-executive-900/95 backdrop-blur-md border-b border-executive-700/50">
+        <div class="max-w-5xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
             <span class="text-xl font-bold tracking-wider text-executive-gold">BC.</span>
-            <div class="space-x-6 text-sm font-medium text-slate-400">
+            <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm font-medium text-slate-400">
                 <a href="#inicio" class="hover:text-executive-gold transition-colors">Inicio</a>
                 <a href="#filosofia" class="hover:text-executive-gold transition-colors">Filosofía</a>
                 <a href="#trayectoria" class="hover:text-executive-gold transition-colors">Trayectoria</a>
@@ -36,34 +36,34 @@
         </div>
     </nav>
 
-    <section id="inicio" class="max-w-5xl mx-auto px-6 pt-20 pb-16 md:py-32 flex flex-col justify-center min-h-[85vh]">
-        <p class="text-executive-gold font-mono text-sm tracking-widest uppercase mb-3">Vendedor Técnico Industrial | Comercio Internacional</p>
-        <h1 class="text-5xl md:text-7xl font-extrabold text-slate-50 tracking-tight mb-4">
+    <section id="inicio" class="max-w-5xl mx-auto px-6 pt-12 pb-16 md:pt-24 md:pb-32 flex flex-col justify-center min-h-[85vh]">
+        <p class="text-executive-gold font-mono text-xs md:text-sm tracking-widest uppercase mb-3 text-center md:text-left">Vendedor Técnico Industrial | Comercio Internacional</p>
+        <h1 class="text-4xl sm:text-5xl md:text-7xl font-extrabold text-slate-50 tracking-tight mb-4 text-center md:text-left">
             Brayan Cid Peña.
         </h1>
-        <h2 class="text-2xl md:text-4xl font-bold text-slate-400 mb-6 max-w-3xl leading-tight">
+        <h2 class="text-xl sm:text-2xl md:text-4xl font-bold text-slate-400 mb-6 max-w-3xl leading-tight text-center md:text-left">
             Gestión de cuentas clave y soluciones de ingeniería para la gran industria.
         </h2>
-        <p class="text-slate-400 max-w-2xl text-lg mb-10 leading-relaxed">
+        <p class="text-slate-400 max-w-2xl text-base md:text-lg mb-10 leading-relaxed text-center md:text-left mx-auto md:mx-0">
             Especializado en la venta técnica B2B dentro de los sectores de celulosa, pesca, minería y energía. Combino el dominio técnico de marcas líderes con herramientas analíticas y de comercio exterior para maximizar la eficiencia operativa.
         </p>
-        <div class="flex flex-wrap gap-4">
-            <a href="#trayectoria" class="bg-executive-gold hover:bg-amber-600 text-executive-900 px-6 py-3 rounded font-semibold transition-all duration-300">
+        <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+            <a href="#trayectoria" class="bg-executive-gold hover:bg-amber-600 text-executive-900 px-6 py-3 rounded font-semibold transition-all duration-300 text-center w-full sm:w-auto">
                 Ver Trayectoria
             </a>
-            <a href="https://linkedin.com/in/alejandro2028" target="_blank" class="border border-slate-600 text-slate-300 px-6 py-3 rounded font-medium hover:bg-slate-800 transition-all duration-300">
+            <a href="https://linkedin.com/in/alejandro2028" target="_blank" class="border border-slate-600 text-slate-300 px-6 py-3 rounded font-medium hover:bg-slate-800 transition-all duration-300 text-center w-full sm:w-auto">
                 LinkedIn Oficial
             </a>
         </div>
     </section>
 
-    <section id="filosofia" class="bg-executive-800 py-20 border-y border-executive-700/50">
+    <section id="filosofia" class="bg-executive-800 py-16 md:py-20 border-y border-executive-700/50">
         <div class="max-w-5xl mx-auto px-6">
-            <h2 class="text-3xl font-bold text-slate-100 mb-12 flex items-center">
+            <h2 class="text-2xl md:text-3xl font-bold text-slate-100 mb-10 flex items-center justify-center md:justify-start">
                 <span class="text-executive-gold font-mono text-xl mr-2">01.</span> Enfoque Estratégico
             </h2>
-            <div class="grid md:grid-cols-3 gap-12">
-                <div class="md:col-span-2 space-y-6 text-slate-300 text-base leading-relaxed">
+            <div class="grid md:grid-cols-3 gap-10 md:gap-12">
+                <div class="md:col-span-2 space-y-6 text-slate-300 text-sm md:text-base leading-relaxed">
                     <p>
                         Mi propuesta se centra en entender los objetivos operativos y de mantenimiento de cada planta, estructurando ofertas comerciales personalizadas que garanticen rentabilidad y continuidad técnica. 
                     </p>
@@ -72,13 +72,13 @@
                     </p>
                 </div>
                 
-                <div class="bg-executive-900/60 p-6 rounded-lg border border-executive-700/50 space-y-4">
+                <div class="bg-executive-900/60 p-6 rounded-lg border border-executive-700/50 space-y-6 text-center md:text-left">
                     <div>
-                        <h4 class="text-sm font-bold text-executive-gold font-mono uppercase tracking-wider mb-2">Portales & ERP</h4>
+                        <h4 class="text-xs md:text-sm font-bold text-executive-gold font-mono uppercase tracking-wider mb-2">Portales & ERP</h4>
                         <p class="text-xs text-slate-400 font-mono">SAP Ariba, Wherex, Artikos, Softland, SAP ERP.</p>
                     </div>
                     <div>
-                        <h4 class="text-sm font-bold text-executive-gold font-mono uppercase tracking-wider mb-2">Marcas Respaldadas</h4>
+                        <h4 class="text-xs md:text-sm font-bold text-executive-gold font-mono uppercase tracking-wider mb-2">Marcas Respaldadas</h4>
                         <p class="text-xs text-slate-400 font-mono">Coax, Renold, Rotex, Orbinox, Kettenwulf.</p>
                     </div>
                 </div>
@@ -86,43 +86,43 @@
         </div>
     </section>
 
-    <section id="trayectoria" class="max-w-5xl mx-auto px-6 py-20">
-        <h2 class="text-3xl font-bold text-slate-100 mb-12 flex items-center">
+    <section id="trayectoria" class="max-w-5xl mx-auto px-6 py-16 md:py-20">
+        <h2 class="text-2xl md:text-3xl font-bold text-slate-100 mb-10 flex items-center justify-center md:justify-start">
             <span class="text-executive-gold font-mono text-xl mr-2">02.</span> Experiencia Industrial
         </h2>
         
         <div class="space-y-12">
-            <div class="border-l-2 border-executive-gold/40 pl-6 relative">
+            <div class="border-l-2 border-executive-gold/40 pl-4 md:pl-6 relative">
                 <div class="absolute w-3 h-3 bg-executive-gold rounded-full -left-[7px] top-1.5"></div>
-                <div class="flex flex-wrap justify-between items-baseline mb-1">
-                    <h3 class="text-xl font-bold text-slate-100">Vendedor Técnico - Zona Sur</h3>
-                    <span class="text-sm font-mono text-executive-gold font-semibold">Feb 2026 - May 2026</span>
+                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-2">
+                    <h3 class="text-lg md:text-xl font-bold text-slate-100">Vendedor Técnico - Zona Sur</h3>
+                    <span class="text-xs md:text-sm font-mono text-executive-gold font-semibold mt-1 sm:mt-0">Feb 2026 - May 2026</span>
                 </div>
-                <p class="text-sm text-slate-400 mb-3">Intecvent Industrial SPA</p>
+                <p class="text-sm text-slate-400 mb-3 font-medium">Intecvent Industrial SPA</p>
                 <p class="text-slate-300 text-sm leading-relaxed">
                     Expansión comercial y prospección en terreno orientada a industrias críticas (Celulosa, Pesca, Energía y Alimentos). Selección y optimización de equipos mecánicos de alta gama asegurando estándares operativos exigentes.
                 </p>
             </div>
 
-            <div class="border-l-2 border-executive-gold/40 pl-6 relative">
+            <div class="border-l-2 border-executive-gold/40 pl-4 md:pl-6 relative">
                 <div class="absolute w-3 h-3 bg-executive-gold rounded-full -left-[7px] top-1.5"></div>
-                <div class="flex flex-wrap justify-between items-baseline mb-1">
-                    <h3 class="text-xl font-bold text-slate-100">Ejecutivo de Ventas Internas</h3>
-                    <span class="text-sm font-mono text-slate-400">Oct 2025 - Ene 2026</span>
+                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-2">
+                    <h3 class="text-lg md:text-xl font-bold text-slate-100">Ejecutivo de Ventas Internas</h3>
+                    <span class="text-xs md:text-sm font-mono text-slate-400 mt-1 sm:mt-0">Oct 2025 - Ene 2026</span>
                 </div>
-                <p class="text-sm text-slate-400 mb-3">Intecvent Industrial SPA</p>
+                <p class="text-sm text-slate-400 mb-3 font-medium">Intecvent Industrial SPA</p>
                 <p class="text-slate-300 text-sm leading-relaxed">
                     Control integral del embudo de ventas en plataformas transaccionales B2B, apalancando el análisis de datos comerciales y reportería estadística de mercado para identificar nuevas ventanas de negocio.
                 </p>
             </div>
 
-            <div class="border-l-2 border-executive-gold/40 pl-6 relative">
+            <div class="border-l-2 border-executive-gold/40 pl-4 md:pl-6 relative">
                 <div class="absolute w-3 h-3 bg-executive-gold rounded-full -left-[7px] top-1.5"></div>
-                <div class="flex flex-wrap justify-between items-baseline mb-1">
-                    <h3 class="text-xl font-bold text-slate-100">Inspector de Lubricación (Equipos Críticos)</h3>
-                    <span class="text-sm font-mono text-slate-400">Mar 2024 - Mar 2025</span>
+                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-2">
+                    <h3 class="text-lg md:text-xl font-bold text-slate-100">Inspector de Lubricación</h3>
+                    <span class="text-xs md:text-sm font-mono text-slate-400 mt-1 sm:mt-0">Mar 2024 - Mar 2025</span>
                 </div>
-                <p class="text-sm text-slate-400 mb-3">Bureau Veritas — Plantas CMPC</p>
+                <p class="text-sm text-slate-400 mb-3 font-medium">Bureau Veritas — Plantas CMPC</p>
                 <p class="text-slate-300 text-sm leading-relaxed">
                     Diagnóstico, monitoreo técnico y control predictivo de activos en las plantas CMPC Laja, Nacimiento y Mininco, coordinando directamente planes de mantención correctiva.
                 </p>
@@ -132,19 +132,19 @@
 
     <section class="bg-executive-800/50 py-16 border-t border-executive-700/50">
         <div class="max-w-5xl mx-auto px-6">
-            <h3 class="text-sm font-bold text-executive-gold font-mono uppercase tracking-widest mb-10 text-center">Formación Continua</h3>
-            <div class="grid md:grid-cols-3 gap-6">
-                <div class="bg-executive-900 p-6 rounded border border-executive-700/40">
+            <h3 class="text-xs md:text-sm font-bold text-executive-gold font-mono uppercase tracking-widest mb-10 text-center">Formación Continua</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="bg-executive-900 p-6 rounded border border-executive-700/40 text-center md:text-left">
                     <span class="text-xs text-executive-gold font-mono font-bold block mb-1">2026 - En curso</span>
                     <h4 class="text-base font-bold text-slate-200 mb-2">Ingeniería Civil Industrial</h4>
-                    <p class="text-xs text-slate-400">Universidad San Sebastián. Foco en dirección de proyectos y optimización de procesos.</p>
+                    <p class="text-xs text-slate-400">Universidad San Sebastián. Foco en dirección de proyectos y optimización.</p>
                 </div>
-                <div class="bg-executive-900 p-6 rounded border border-executive-700/40">
+                <div class="bg-executive-900 p-6 rounded border border-executive-700/40 text-center md:text-left">
                     <span class="text-xs text-executive-gold font-mono font-bold block mb-1">2026 - En curso</span>
                     <h4 class="text-base font-bold text-slate-200 mb-2">Diplomado KAM y Venta Estratégica</h4>
-                    <p class="text-xs text-slate-400">Pontificia Universidad Católica de Chile. Fidelización de cuentas corporativas B2B.</p>
+                    <p class="text-xs text-slate-400">Pontificia Univ. Católica. Fidelización de cuentas corporativas B2B.</p>
                 </div>
-                <div class="bg-executive-900 p-6 rounded border border-executive-700/40">
+                <div class="bg-executive-900 p-6 rounded border border-executive-700/40 text-center md:text-left sm:col-span-2 md:col-span-1">
                     <span class="text-xs text-slate-400 font-mono block mb-1">Graduado</span>
                     <h4 class="text-base font-bold text-slate-200 mb-2">Téc. en Comercio Internacional</h4>
                     <p class="text-xs text-slate-400">Escuela de Comercio de Santiago. Logística exterior y gestión aduanera.</p>
@@ -153,18 +153,11 @@
         </div>
     </section>
 
-    <section id="contacto" class="max-w-3xl mx-auto px-6 py-20 text-center">
-        <h2 class="text-executive-gold font-mono text-sm tracking-widest uppercase mb-2">Contacto Directo</h2>
-        <h3 class="text-3xl font-bold text-slate-100 mb-6">¿Evaluamos un proyecto comercial?</h3>
-        <p class="text-slate-400 mb-8 text-sm">
+    <section id="contacto" class="max-w-3xl mx-auto px-6 py-16 md:py-20 text-center">
+        <h2 class="text-executive-gold font-mono text-xs md:text-sm tracking-widest uppercase mb-2">Contacto Directo</h2>
+        <h3 class="text-2xl md:text-3xl font-bold text-slate-100 mb-6">¿Evaluamos un proyecto comercial?</h3>
+        <p class="text-slate-400 mb-8 text-sm md:text-base">
             Disponible para reuniones de prospección técnica corporativa o análisis estratégico de suministro en la Región Metropolitana y Macro Zona Sur.
         </p>
-        <div class="flex flex-wrap justify-center gap-6 text-sm font-mono text-slate-300">
-            <a href="mailto:alejocidp@gmail.com" class="hover:text-executive-gold">✉ alejocidp@gmail.com</a>
-            <span>📞 +56 9 6697 8475</span>
-            <span class="text-slate-500">📍 Gran Santiago, Chile</span>
-        </div>
-    </section>
-
-</body>
-</html>
+        <div class="flex flex-col sm:flex-row justify-
+            
